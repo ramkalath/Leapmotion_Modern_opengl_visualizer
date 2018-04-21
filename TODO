@@ -1,0 +1,4 @@
+This project is still under construction
+all the cpp files contain snippets of code which are several modules towards the final goal
+right now i can track finger joints and print their positions
+Next step is to create little cubes in the place of all the finger joints and make the cubes move along with the positions of the joints. We might have to do some scaling operations and all that for this.
