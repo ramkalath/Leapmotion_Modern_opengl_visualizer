@@ -10,7 +10,7 @@ LEAP_LIBRARY := ../lib/x64/libLeap.so -Wl,-rpath,../lib/x64 -lz
 FILENAME = main
 
 all: $(FILENAME).cpp
-	$(CC) -Wall -g $(INCLUDE_LEAP) $(FILENAME).cpp -o $(FILENAME) $(LIBS) $(LEAP_LIBRARY)
+	$(CC) -Wall -g $(INCLUDE_LEAP) $(FILENAME).cpp -o ../bin/$(FILENAME) $(LIBS) $(LEAP_LIBRARY)
 
 run:
 	@./$(FILENAME)
