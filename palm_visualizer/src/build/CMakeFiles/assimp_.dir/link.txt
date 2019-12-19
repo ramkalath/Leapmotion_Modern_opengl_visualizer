@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/assimp_.dir/modelloader.cpp.o CMakeFiles/assimp_.dir/home/ram/workarea/assimp/include/shader.cpp.o CMakeFiles/assimp_.dir/main.cpp.o  -o /home/ram/workarea/assimp/bin/assimp_ -lglfw3 -lGLEW -lGL -lGLU -lSOIL -ldl -lXinerama -lXrandr -lXi -lXcursor -lX11 -lXxf86vm -lpthread -lassimp 

@@ -1,0 +1,3 @@
+/home/ram/workarea/assimp/src/build/CMakeFiles/rebuild_cache.dir
+/home/ram/workarea/assimp/src/build/CMakeFiles/assimp_.dir
+/home/ram/workarea/assimp/src/build/CMakeFiles/edit_cache.dir

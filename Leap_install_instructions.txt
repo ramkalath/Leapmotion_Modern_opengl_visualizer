@@ -1,4 +1,0 @@
-1) Download the driver Leap*.tar from the leap website
-2) git clone https://github.com/kenhys/debian-leapmotion
-3) cp Leap*.tar debian-leapmotion && cd debian-leapmotion
-4) make           /*the generation of deb file will take a few mins. Wait patiently.*/
