@@ -13,7 +13,7 @@ FILENAME2 = modelloader
 FILENAME3 = shader
 
 all: $(FILENAME).cpp
-	$(CC) -Wall -g $(INCLUDE_LEAP) ../include/${FILENAME3}.cpp ../include/${FILENAME2}.cpp ../include/${FILENAME1}.cpp $(FILENAME).cpp -o ../bin/$(FILENAME) $(LIBS) $(LEAP_LIBRARY)
+	$(CC) -Wall -g ../include/${FILENAME3}.cpp ../include/${FILENAME2}.cpp ../include/${FILENAME1}.cpp $(FILENAME).cpp -o ../bin/$(FILENAME) $(LIBS) $(LEAP_LIBRARY)
 
 run:
 	@../bin/$(FILENAME)
