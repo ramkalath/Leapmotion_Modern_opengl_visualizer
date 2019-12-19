@@ -6,6 +6,7 @@
  * Detailed Description : working fine as a VR visualizer
  *						 TODO(ram): yet to make it AR; lots of work left for that				
  * 						 TODO(ram): draw line primitives between the finger joints (not too critical)
+ *                       TODO(ram): https://developer.leapmotion.com/documentation/v4/vrar.html follow that post to convert it from table top to head mount
  *****************************************************************************/
 // GLEW and GLFW includes
 #define GLEW_STATIC
@@ -29,8 +30,7 @@
 // Leap motion includes
 #include "../include/finger_joints.h"
 
-void key_callback(GLFWwindow *window, int key, int scancode, int action, int mode)
-{
+void key_callback(GLFWwindow *window, int key, int scancode, int action, int mode) {
 	// When the user presses the escape key, we set the window should close property to true, and close the application.
 	if(key == GLFW_KEY_ESCAPE && action == GLFW_PRESS)
 		glfwSetWindowShouldClose(window, GL_TRUE);
