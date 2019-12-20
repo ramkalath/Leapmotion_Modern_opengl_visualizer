@@ -6,7 +6,8 @@
  * Detailed Description : working fine as a VR visualizer
  *						 TODO(ram): yet to make it AR; lots of work left for that				
  * 						 TODO(ram): draw line primitives between the finger joints (not too critical)
- *                       TODO(ram): https://developer.leapmotion.com/documentation/v4/vrar.html follow that post to convert it from table top to head mount
+ *                       DONE(ram): https://developer.leapmotion.com/documentation/v4/vrar.html follow that post to convert it from table top to head mount
+ *						 TODO(ram): test the above point
  *****************************************************************************/
 // GLEW and GLFW includes
 #define GLEW_STATIC
@@ -74,6 +75,13 @@ int main()
 
 	modelloader icosphere("./resources/icosphere/icosphere.obj");
 
+	//TODO(ram): I think this is right. But have to experiment more
+	glm::mat4 rotation_matrix = glm::mat4{-1, 0,  0, 1,
+										   0, 0, -1, 1,
+										   0,-1,  0, 1,
+										   0, 0, 0, 1};
+	rotation_matrix = glm::transpose(rotation_matrix);
+
 
 	while(!glfwWindowShouldClose(window))
 	{
@@ -108,6 +116,7 @@ int main()
 										 0.0f, 0.03f, 0.0f, 0.0f, 
 										 0.0f, 0.0f, 0.03f, 0.0f, 
 										 hand.vertices_hand[i].x/spread, hand.vertices_hand[i].y/spread, hand.vertices_hand[i].z/spread, 1.0f};
+				icosphere.modelmatrix = rotation_matrix * icosphere.modelmatrix;
 						  
 				glUniformMatrix4fv(glGetUniformLocation(objectshader.program, "model"), 1, GL_FALSE, glm::value_ptr(icosphere.modelmatrix));
 				icosphere.RenderModel();
