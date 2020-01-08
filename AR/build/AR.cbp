@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="AR"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ram/workarea/Leapmotion_Modern_opengl_visualizer/AR/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ram/workarea/Leapmotion_Modern_opengl_visualizer/AR/build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ram/workarea/Leapmotion_Modern_opengl_visualizer/AR/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ram/workarea/Leapmotion_Modern_opengl_visualizer/AR/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ram/workarea/Leapmotion_Modern_opengl_visualizer/AR/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ram/workarea/Leapmotion_Modern_opengl_visualizer/AR/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ram/workarea/Leapmotion_Modern_opengl_visualizer/AR/build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ram/workarea/Leapmotion_Modern_opengl_visualizer/AR/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ram/workarea/Leapmotion_Modern_opengl_visualizer/AR/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ram/workarea/Leapmotion_Modern_opengl_visualizer/AR/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AR">
+				<Option output="/home/ram/workarea/Leapmotion_Modern_opengl_visualizer/AR/bin/AR" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="../bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ram/workarea/Leapmotion_Modern_opengl_visualizer/AR/../include"/>
+					<Add directory="/usr/include/opencv4"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ram/workarea/Leapmotion_Modern_opengl_visualizer/AR/build/Makefile&quot;  VERBOSE=1 AR"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ram/workarea/Leapmotion_Modern_opengl_visualizer/AR/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ram/workarea/Leapmotion_Modern_opengl_visualizer/AR/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ram/workarea/Leapmotion_Modern_opengl_visualizer/AR/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AR/fast">
+				<Option output="/home/ram/workarea/Leapmotion_Modern_opengl_visualizer/AR/bin/AR" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="../bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ram/workarea/Leapmotion_Modern_opengl_visualizer/AR/../include"/>
+					<Add directory="/usr/include/opencv4"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ram/workarea/Leapmotion_Modern_opengl_visualizer/AR/build/Makefile&quot;  VERBOSE=1 AR/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ram/workarea/Leapmotion_Modern_opengl_visualizer/AR/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ram/workarea/Leapmotion_Modern_opengl_visualizer/AR/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ram/workarea/Leapmotion_Modern_opengl_visualizer/AR/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ram/workarea/Leapmotion_Modern_opengl_visualizer/AR/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ram/workarea/Leapmotion_Modern_opengl_visualizer/AR/build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ram/workarea/Leapmotion_Modern_opengl_visualizer/AR/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ram/workarea/Leapmotion_Modern_opengl_visualizer/AR/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ram/workarea/Leapmotion_Modern_opengl_visualizer/AR/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ram/workarea/Leapmotion_Modern_opengl_visualizer/AR/src/main.cpp">
+			<Option target="AR"/>
+		</Unit>
+		<Unit filename="/home/ram/workarea/Leapmotion_Modern_opengl_visualizer/AR/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
