@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ram/workarea/Leapmotion_Modern_opengl_visualizer/AR/src/main.cpp" "/home/ram/workarea/Leapmotion_Modern_opengl_visualizer/AR/build/CMakeFiles/AR.dir/src/main.cpp.o"
+  "/home/ram/workarea/graphics_work/Leapmotion_Modern_opengl_visualizer/AR/src/main.cpp" "/home/ram/workarea/graphics_work/Leapmotion_Modern_opengl_visualizer/AR/build/CMakeFiles/AR.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -6,5 +6,5 @@ CXX_FLAGS = -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ram/workarea/Leapmotion_Modern_opengl_visualizer/AR/../include -I/usr/include/opencv4 
+CXX_INCLUDES = -I/home/ram/workarea/graphics_work/Leapmotion_Modern_opengl_visualizer/AR/../include -I/usr/include/opencv4 
 

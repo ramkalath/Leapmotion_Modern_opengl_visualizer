@@ -35,6 +35,8 @@ CMakeFiles/AR.dir/src/main.cpp.o: /usr/include/opencv4/opencv2/core/saturate.hpp
 CMakeFiles/AR.dir/src/main.cpp.o: /usr/include/opencv4/opencv2/core/traits.hpp
 CMakeFiles/AR.dir/src/main.cpp.o: /usr/include/opencv4/opencv2/core/types.hpp
 CMakeFiles/AR.dir/src/main.cpp.o: /usr/include/opencv4/opencv2/core/utility.hpp
+CMakeFiles/AR.dir/src/main.cpp.o: /usr/include/opencv4/opencv2/core/utils/instrumentation.hpp
+CMakeFiles/AR.dir/src/main.cpp.o: /usr/include/opencv4/opencv2/core/utils/tls.hpp
 CMakeFiles/AR.dir/src/main.cpp.o: /usr/include/opencv4/opencv2/core/version.hpp
 CMakeFiles/AR.dir/src/main.cpp.o: /usr/include/opencv4/opencv2/core/vsx_utils.hpp
 CMakeFiles/AR.dir/src/main.cpp.o: /usr/include/opencv4/opencv2/dnn.hpp
