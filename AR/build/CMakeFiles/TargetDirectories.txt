@@ -1,3 +1,0 @@
-/home/ram/workarea/graphics_work/Leapmotion_Modern_opengl_visualizer/AR/build/CMakeFiles/rebuild_cache.dir
-/home/ram/workarea/graphics_work/Leapmotion_Modern_opengl_visualizer/AR/build/CMakeFiles/AR.dir
-/home/ram/workarea/graphics_work/Leapmotion_Modern_opengl_visualizer/AR/build/CMakeFiles/edit_cache.dir

@@ -76,11 +76,15 @@ int main()
 	modelloader icosphere("./resources/icosphere/icosphere.obj");
 
 	//TODO(ram): I think this is right. But have to experiment more
-	glm::mat4 rotation_matrix = glm::mat4{-1, 0,  0, 1,
-										   0, 0, -1, 1,
-										   0,-1,  0, 1,
+	glm::mat4 rotation_matrix = glm::mat4{1, 0,  0, 0,
+										   0, 1, 0, 0,
+										   0, 0,  1, 0,
 										   0, 0, 0, 1};
-	rotation_matrix = glm::transpose(rotation_matrix);
+	//glm::mat4 rotation_matrix = glm::mat4{-1, 0,  0, 1,
+										   //0, 0, -1, 1,
+										   //0,-1,  0, 1,
+										   //0, 0, 0, 1};
+	//rotation_matrix = glm::transpose(rotation_matrix);
 
 
 	while(!glfwWindowShouldClose(window))
@@ -112,9 +116,9 @@ int main()
 						  //<< hand.vertices_hand[i].y/200 << "\t"
 						  //<< hand.vertices_hand[i].z/200 << std::endl;
 
-				icosphere.modelmatrix = {0.03f, 0.0f, 0.0f, 0.0f,
-										 0.0f, 0.03f, 0.0f, 0.0f, 
-										 0.0f, 0.0f, 0.03f, 0.0f, 
+				icosphere.modelmatrix = {0.07, 0.0f, 0.0f, 0.0f,
+										 0.0f, 0.07, 0.0f, 0.0f, 
+										 0.0f, 0.0f, 0.07f, 0.0f, 
 										 hand.vertices_hand[i].x/spread, hand.vertices_hand[i].y/spread, hand.vertices_hand[i].z/spread, 1.0f};
 				icosphere.modelmatrix = rotation_matrix * icosphere.modelmatrix;
 						  
